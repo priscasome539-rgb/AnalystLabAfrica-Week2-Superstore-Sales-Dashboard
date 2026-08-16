@@ -4,8 +4,7 @@
 
 Ce projet a été réalisé dans le cadre du programme **Data Analytics Internship Programme d'AnalystLab Africa (Semaine 2)**.
 
-L'objectif était de développer un tableau de bord interactif sous Microsoft Power BI permettant d'analyser les performances commerciales d'une entreprise de distribution, d'identifier les facteurs de rentabilité et de fournir des recommandations stratégiques basées sur les données. 【1-3871b1】【2-dd1c10】【3-068d31】
-
+L'objectif était de développer un tableau de bord interactif sous Microsoft Power BI permettant d'analyser les performances commerciales d'une entreprise de distribution, d'identifier les facteurs de rentabilité et de fournir des recommandations stratégiques basées sur les données. 
 ---
 
 ## 🎯 Objectifs Business
@@ -18,8 +17,7 @@ Ce projet répond aux questions métier suivantes :
 - Quelles catégories de produits sont les plus performantes ?
 - Quels produits sont les plus rentables ?
 - Quelles tendances observe-t-on au fil du temps ?
-- Quelles recommandations peuvent être mises en œuvre pour améliorer les résultats de l'entreprise ? 【3-068d31】
-
+- Quelles recommandations peuvent être mises en œuvre pour améliorer les résultats de l'entreprise ? 
 ---
 
 ## 🏢 Contexte
@@ -34,8 +32,7 @@ Le travail a couvert l'ensemble du processus analytique :
 - Création de mesures DAX
 - Développement d'un dashboard interactif
 - Analyse des résultats
-- Formulation de recommandations stratégiques 【2-dd1c10】【3-068d31】
-
+- Formulation de recommandations stratégiques 
 ---
 
 ## 🛠️ Outils et Technologies
@@ -67,7 +64,7 @@ Le jeu de données contient des informations sur :
 - Les régions
 - Les États américains
 
-Période analysée : **2014 à 2017**. 【2-dd1c10】【1-3871b1】
+Période analysée : **2014 à 2017**. 
 
 ---
 
@@ -90,7 +87,7 @@ Colonnes dérivées créées :
 - Order Date Year
 - Order Date Month
 
-Le dataset ne présentait aucune valeur manquante ni aucun doublon. 【2-dd1c10】
+Le dataset ne présentait aucune valeur manquante ni aucun doublon.
 
 ---
 
@@ -104,7 +101,7 @@ Le dashboard comprend les KPI suivants :
 - Average Sales
 - Profit Margin
 
-Mesures réalisées à l'aide de DAX pour suivre la performance globale de l'entreprise. 【2-dd1c10】
+Mesures réalisées à l'aide de DAX pour suivre la performance globale de l'entreprise.
 
 ---
 
@@ -128,7 +125,6 @@ Le dashboard comprend :
 - Catégorie
 - Segment
 
-【2-dd1c10】
 
 ---
 
@@ -136,39 +132,38 @@ Le dashboard comprend :
 
 ### 1. Une croissance continue
 
-Les ventes ont presque doublé entre 2014 et 2017 et les profits ont suivi la même tendance, indiquant une croissance rentable. 【1-3871b1】
+Les ventes ont presque doublé entre 2014 et 2017 et les profits ont suivi la même tendance, indiquant une croissance rentable. 
 
 ### 2. Technology est la catégorie la plus performante
 
-La catégorie Technology génère les ventes les plus élevées et affiche une marge d'environ 17 %. 【1-3871b1】
+La catégorie Technology génère les ventes les plus élevées et affiche une marge d'environ 17 %. 
 
 ### 3. Le segment Consumer domine le marché
 
-Le segment Consumer représente environ 50,6 % du chiffre d'affaires total. 【1-3871b1】
+Le segment Consumer représente environ 50,6 % du chiffre d'affaires total. 
 
 ### 4. Les profits sont concentrés sur un nombre limité de produits
 
-Plusieurs produits de marques comme Canon et Hewlett-Packard représentent une part importante des bénéfices générés. 【1-3871b1】
+Plusieurs produits de marques comme Canon et Hewlett-Packard représentent une part importante des bénéfices générés. 
 
 ### 5. L'Ouest surperforme tandis que le Sud est en difficulté
 
-La région Ouest affiche les meilleures performances alors que la région Sud présente les résultats les plus faibles. 【1-3871b1】
-
+La région Ouest affiche les meilleures performances alors que la région Sud présente les résultats les plus faibles. 
 ---
 
 ## ⚠️ Risques Identifiés
 
 ### Furniture : forte vente mais faible rentabilité
 
-La catégorie Furniture génère un chiffre d'affaires important mais une marge de seulement 2 %. 【1-3871b1】
+La catégorie Furniture génère un chiffre d'affaires important mais une marge de seulement 2 %. 
 
 ### Faibles performances de la région Sud
 
-La région Sud demeure la moins performante en termes de ventes et de profits. 【1-3871b1】
+La région Sud demeure la moins performante en termes de ventes et de profits. 
 
 ### Sous-exploitation du segment Home Office
 
-Le segment Home Office ne représente que 18,7 % des ventes et dispose d'un potentiel de croissance significatif. 【1-3871b1】
+Le segment Home Office ne représente que 18,7 % des ventes et dispose d'un potentiel de croissance significatif. 
 
 ---
 
@@ -178,7 +173,7 @@ Le segment Home Office ne représente que 18,7 % des ventes et dispose d'un pote
 - Déployer un plan d'amélioration commerciale dans la région Sud.
 - Mettre en place un programme de fidélisation pour le segment Home Office.
 - Renforcer la disponibilité des produits les plus rentables.
-- Utiliser le dashboard lors des revues mensuelles de performance. 【1-3871b1】
+- Utiliser le dashboard lors des revues mensuelles de performance.
 
 ---
 
@@ -189,8 +184,6 @@ Le segment Home Office ne représente que 18,7 % des ventes et dispose d'un pote
 - Rapport Exécutif
 - Export PDF du Dashboard
 - Documentation GitHub
-
-【3-068d31】
 
 ---
 
@@ -227,8 +220,7 @@ Passionnée par la Finance, la Business Intelligence, la Data Analytics et les t
 
 ## 🤝 Remerciements
 
-Merci à **AnalystLab Africa** pour cette expérience pratique en analyse de données et en Business Intelligence, qui a permis de renforcer les compétences en visualisation de données, analyse métier et aide à la décision. 【3-068d31】
-
+Merci à **AnalystLab Africa** pour cette expérience pratique en analyse de données et en Business Intelligence, qui a permis de renforcer les compétences en visualisation de données, analyse métier et aide à la décision.
 ---
 
 ⭐ N'hésitez pas à consulter le projet et à laisser une étoile au dépôt si vous le trouvez intéressant.
