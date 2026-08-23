@@ -1,4 +1,4 @@
-Superstore Sales Dashboard — Projet BI (Semaines 2 & 3)
+📊Superstore Sales Dashboard — Projet BI (Semaines 2 & 3)
 Projet réalisé dans le cadre du Data Analytics Internship Programme — AnalystLab Africa.
 Mission : transformer les ventes 2014-2017 d'un distributeur américain (dataset Superstore) en
 tableaux de bord exécutifs interactifs et en recommandations actionnables.
