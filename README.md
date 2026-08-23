@@ -6,10 +6,16 @@ tableaux de bord exécutifs interactifs et en recommandations actionnables.
 Dashboard Semaine 3 
 Page 1: Vue d'ensemble
 <img width="668" height="383" alt="image" src="https://github.com/user-attachments/assets/e29ec099-3147-4ca5-9a3c-078f80596d2d" /> 
+
+
 Page 2:Tendances Temporelles
 <img width="676" height="416" alt="image" src="https://github.com/user-attachments/assets/e351f9d8-20e4-435e-9289-cd430f2381e0" /> 
+
+
 Page 3: Produits et Rentabilité
 <img width="680" height="417" alt="image" src="https://github.com/user-attachments/assets/1dda8393-f1a8-4682-b02b-9908f355ef87" /> 
+
+
 Page 4: Clients et Régions
 <img width="662" height="418" alt="image" src="https://github.com/user-attachments/assets/892fcaa3-b557-48c5-a559-ddbaffa707a7" />
 
@@ -84,6 +90,6 @@ Ouvrir Superstore_Dashboard.pbix ;
 Naviguer entre les 4 pages et filtrer via les 5 slicers synchronisés.
 👤 Auteur
 SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
-LinkedIn : [lien] · X : [@pseudo]
+LinkedIn : www.linkedin.com/in/oho-prisca-gaëlle-some-01391a303 · X : @PriscaSomd3ho
 
 #AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
