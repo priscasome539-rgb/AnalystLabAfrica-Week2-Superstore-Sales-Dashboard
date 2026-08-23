@@ -4,6 +4,7 @@ Mission : transformer les ventes 2014-2017 d'un distributeur américain (dataset
 tableaux de bord exécutifs interactifs et en recommandations actionnables.
 
 Dashboard Semaine 3 
+
 Page 1: Vue d'ensemble
 <img width="668" height="383" alt="image" src="https://github.com/user-attachments/assets/e29ec099-3147-4ca5-9a3c-078f80596d2d" /> 
 
