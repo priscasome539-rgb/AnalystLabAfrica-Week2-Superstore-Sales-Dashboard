@@ -1,226 +1,89 @@
-# 📊 Analyse des Ventes Superstore | Dashboard Power BI
-
-## 📌 Présentation du projet
-
-Ce projet a été réalisé dans le cadre du programme **Data Analytics Internship Programme d'AnalystLab Africa (Semaine 2)**.
-
-L'objectif était de développer un tableau de bord interactif sous Microsoft Power BI permettant d'analyser les performances commerciales d'une entreprise de distribution, d'identifier les facteurs de rentabilité et de fournir des recommandations stratégiques basées sur les données. 
----
-
-## 🎯 Objectifs Business
-
-Ce projet répond aux questions métier suivantes :
-
-- Quelle est la performance globale de l'entreprise ?
-- Quelles régions génèrent le plus de ventes et de profits ?
-- Quels segments clients contribuent le plus au chiffre d'affaires ?
-- Quelles catégories de produits sont les plus performantes ?
-- Quels produits sont les plus rentables ?
-- Quelles tendances observe-t-on au fil du temps ?
-- Quelles recommandations peuvent être mises en œuvre pour améliorer les résultats de l'entreprise ? 
----
-
-## 🏢 Contexte
-
-Dans le cadre de cette mission, le rôle consistait à agir comme un analyste Business Intelligence chargé de transformer des données commerciales brutes en informations utiles pour la prise de décision.
-
-Le travail a couvert l'ensemble du processus analytique :
-
-- Compréhension du besoin métier
-- Préparation et nettoyage des données
-- Modélisation dans Power BI
-- Création de mesures DAX
-- Développement d'un dashboard interactif
-- Analyse des résultats
-- Formulation de recommandations stratégiques 
----
-
-## 🛠️ Outils et Technologies
-
-- Microsoft Power BI
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel / CSV
-- GitHub
-
----
-
-## 📂 Jeu de données
-
-**Dataset utilisé : Superstore Sales Dataset**
-
-Source :
-https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
-
-Le jeu de données contient des informations sur :
-
-- Les commandes
-- Les ventes
-- Les profits
-- Les clients
-- Les catégories de produits
-- Les sous-catégories
-- Les segments clients
-- Les régions
-- Les États américains
-
-Période analysée : **2014 à 2017**. 
-
----
-
-## 🧹 Préparation des données
-
-Les opérations suivantes ont été réalisées dans Power Query :
-
-✅ Importation du fichier CSV
-
-✅ Vérification des valeurs manquantes
-
-✅ Contrôle des doublons
-
-✅ Correction des types de données
-
-✅ Création de colonnes temporelles
-
-Colonnes dérivées créées :
-
-- Order Date Year
-- Order Date Month
-
-Le dataset ne présentait aucune valeur manquante ni aucun doublon.
-
----
-
-## 📈 Indicateurs Clés (KPI)
-
-Le dashboard comprend les KPI suivants :
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Sales
-- Profit Margin
-
-Mesures réalisées à l'aide de DAX pour suivre la performance globale de l'entreprise.
-
----
-
-## 📊 Visualisations du Dashboard
-
-Le dashboard comprend :
-
-- Carte géographique des ventes par État
-- Ventes par catégorie de produits
-- Ventes et profits par région
-- Ventes par sous-catégorie
-- Top 10 des produits les plus rentables
-- Évolution des ventes et profits (2014-2017)
-- Répartition des ventes par segment client
-- Matrice de performance catégorie / sous-catégorie
-
-### Filtres interactifs
-
-- Année
-- Région
-- Catégorie
-- Segment
-
-
----
-
-## 🔍 Principaux Enseignements
-
-### 1. Une croissance continue
-
-Les ventes ont presque doublé entre 2014 et 2017 et les profits ont suivi la même tendance, indiquant une croissance rentable. 
-
-### 2. Technology est la catégorie la plus performante
-
-La catégorie Technology génère les ventes les plus élevées et affiche une marge d'environ 17 %. 
-
-### 3. Le segment Consumer domine le marché
-
-Le segment Consumer représente environ 50,6 % du chiffre d'affaires total. 
-
-### 4. Les profits sont concentrés sur un nombre limité de produits
-
-Plusieurs produits de marques comme Canon et Hewlett-Packard représentent une part importante des bénéfices générés. 
-
-### 5. L'Ouest surperforme tandis que le Sud est en difficulté
-
-La région Ouest affiche les meilleures performances alors que la région Sud présente les résultats les plus faibles. 
----
-
-## ⚠️ Risques Identifiés
-
-### Furniture : forte vente mais faible rentabilité
-
-La catégorie Furniture génère un chiffre d'affaires important mais une marge de seulement 2 %. 
-
-### Faibles performances de la région Sud
-
-La région Sud demeure la moins performante en termes de ventes et de profits. 
-
-### Sous-exploitation du segment Home Office
-
-Le segment Home Office ne représente que 18,7 % des ventes et dispose d'un potentiel de croissance significatif. 
-
----
-
-## 🚀 Recommandations
-
-- Revoir la politique de prix et de remises de la catégorie Furniture.
-- Déployer un plan d'amélioration commerciale dans la région Sud.
-- Mettre en place un programme de fidélisation pour le segment Home Office.
-- Renforcer la disponibilité des produits les plus rentables.
-- Utiliser le dashboard lors des revues mensuelles de performance.
-
----
-
-## 📁 Livrables du Projet
-
-- Dashboard Power BI (.pbix)
-- Rapport Business Intelligence
-- Rapport Exécutif
-- Export PDF du Dashboard
-- Documentation GitHub
-
----
-
-## 📸 Aperçu du Dashboard
-
-<img width="851" height="467" alt="image" src="https://github.com/user-attachments/assets/99604051-d600-459e-968a-292512d52524" />
-
-
----
-
-## 👩🏽‍💻 Auteur
-
-### Oho Prisca Gaëlle SOME
-
-Étudiante en Master Banque, Finance, Assurance et Droit
-
-Passionnée par la Finance, la Business Intelligence, la Data Analytics et les technologies appliquées à la finance.
-
-📍 Dakar, Sénégal
-
-### Compétences développées
-
-- Business Intelligence
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Cleaning
-- Data Visualization
-- Business Analysis
-- Reporting Exécutif
-- Data Storytelling
-
----
-
-## 🤝 Remerciements
-
-Merci à **AnalystLab Africa** pour cette expérience pratique en analyse de données et en Business Intelligence, qui a permis de renforcer les compétences en visualisation de données, analyse métier et aide à la décision.
----
-
-⭐ N'hésitez pas à consulter le projet et à laisser une étoile au dépôt si vous le trouvez intéressant.
+Superstore Sales Dashboard — Projet BI (Semaines 2 & 3)
+Projet réalisé dans le cadre du Data Analytics Internship Programme — AnalystLab Africa.
+Mission : transformer les ventes 2014-2017 d'un distributeur américain (dataset Superstore) en
+tableaux de bord exécutifs interactifs et en recommandations actionnables.
+
+Dashboard Semaine 3 
+Page 1: Vue d'ensemble
+<img width="668" height="383" alt="image" src="https://github.com/user-attachments/assets/e29ec099-3147-4ca5-9a3c-078f80596d2d" /> 
+Page 2:Tendances Temporelles
+<img width="676" height="416" alt="image" src="https://github.com/user-attachments/assets/e351f9d8-20e4-435e-9289-cd430f2381e0" /> 
+Page 3: Produits et Rentabilité
+<img width="680" height="417" alt="image" src="https://github.com/user-attachments/assets/1dda8393-f1a8-4682-b02b-9908f355ef87" /> 
+Page 4: Clients et Régions
+<img width="662" height="418" alt="image" src="https://github.com/user-attachments/assets/892fcaa3-b557-48c5-a559-ddbaffa707a7" />
+
+
+🎯 Contexte & problème business
+L'entreprise ne disposait d'aucune vue consolidée de sa performance. Objectifs :
+
+Semaine 2 : dashboard exécutif initial — performance globale, régions, catégories, segments,
+produits ; 5 KPI, 8 visuels, 4 slicers.
+Semaine 3 : approfondissement — analyse temporelle, rentabilité par produit, impact des
+remises, performance clients/régions ; dashboard 4 pages, 11 mesures DAX, modélisation
+avec table de dates.
+📁 Jeu de données
+Superstore Sales Dataset (Kaggle)
+— commandes 2014-2017 : dates, régions, États, segments, catégories/sous-catégories, produits,
+ventes, profits, remises.
+
+🛠️ Outils
+Microsoft Power BI Desktop · Power Query · DAX · GitHub · Google Drive
+
+🧹 Préparation & modélisation des données
+Power Query : doublons supprimés, TotalCharges-type corrigé (N/A : champ Discount numérique),
+types corrigés (Sales/Profit décimal, Order Date date), devise USD.
+Table de dates Date créée en DAX (CALENDAR), marquée table de dates, relation
+1→plusieurs active à sens unique vers Order Date (attributs Année/Mois/Trimestre/Mois Année).
+Colonne calculée Discount Bucket (tranches de remise) pour l'analyse d'impact des remises.
+🧮 Mesures DAX (11, table dédiée _Mesures)
+Total Sales · Total Profit · Total Orders · Average Sales · Profit Margin ·
+Average Sales per Order · Average Profit per Order · Average Discount ·
+Sales Previous Year (SAMEPERIODLASTYEAR) · Sales Growth YoY · Loss-Making Products.
+Formules et explications détaillées : 
+Week3_DAX_Documentation.docx
+.
+
+📊 Le dashboard — 4 pages interactives
+Page	Contenu
+1. Vue d'ensemble	5 KPI (Sales $2,30M, Profit $286,4K, Orders 5K, Avg Sales $229,86, Marge 12 %) · carte des États · catégories · segments · top produits · matrice conditionnelle
+2. Tendances temporelles	Growth YoY, profit/commande, produits en perte · saisonnalité par année · croissance annuelle · trimestres · top 5 mois · profit mensuel
+3. Produits & rentabilité	Nuage ventes/profit · matrice rentabilité+remises (rouge si perte) · sous-catégories en perte · marge par tranche de remise (30 % → -123 %) · produits en perte par catégorie
+4. Clients & régions	Top 10 clients · profit par État (zones rouges) · profit par segment · ventes/profit par région · remise moyenne par région
+Interactivité : 5 slicers synchronisés sur les 4 pages (Année, Region, Category, Segment,
+Sub-Category) ; mises en forme conditionnelles ; titres métiers ; palette cohérente
+(#1F4E79 / #2E9E97 / rouge alerte).
+
+🔍 Principaux enseignements (Semaine 3)
+Croissance 2014→2017 (+50 %) et saisonnalité Q4 (novembre-décembre meilleurs mois) ;
+Remises : 30 % de marge sans remise → -15 % dès 21-40 % → -123 % au-delà de 60 % ;
+299 produits en perte, concentrés Furniture/Office Supplies (Tables : -17,7 K$) ;
+West domine (~0,72 M$), South ferme la marche ; Central = région la plus remisée ;
+Consumer = 46,8 % du profit ; Home Office (21 %) = relais de croissance.
+✅ Recommandations
+Plafonner les remises (> 20 % soumise à validation) ; 2. Assainir le catalogue Furniture ;
+Plan de rattrapage pour la région Sud ; 4. Développer & fidéliser Home Office ;
+Revue mensuelle de la performance via ce dashboard.
+Détail : 
+Week3_Business_Insights_Report.docx
+.
+📂 Structure du repository
+text
+
+├── README.md
+├── Superstore_Dashboard.pbix              ← dashboard 4 pages (Semaines 2+3)
+├── Dashboard_Export.pdf                   ← export PDF du dashboard
+├── Week2_Rapport_BI_Overview.docx         ← Semaine 2, Partie 1
+├── Week2_Executive_Summary_Insights.docx  ← Semaine 2, Parties 4-5
+├── Week3_Business_Insights_Report.docx    ← Semaine 3 : continuité, problèmes, insights, reco
+├── Week3_DAX_Documentation.docx           ← Semaine 3 : modèle + mesures DAX
+└── assets/                                ← captures des 4 pages du dashboard
+🚀 Utilisation
+Installer Power BI Desktop ;
+Ouvrir Superstore_Dashboard.pbix ;
+Naviguer entre les 4 pages et filtrer via les 5 slicers synchronisés.
+👤 Auteur
+SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
+LinkedIn : [lien] · X : [@pseudo]
+
+#AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
