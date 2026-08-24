@@ -94,8 +94,12 @@ text
 Installer Power BI Desktop ;
 Ouvrir Superstore_Dashboard.pbix ;
 Naviguer entre les 4 pages et filtrer via les 5 slicers synchronisés.
+
 👤 Auteur
+
 SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
-LinkedIn : [lien] · X : [@pseudo]
+LinkedIn : www.linkedin.com/in/oho-prisca-gaëlle-some-01391a303 
+
+X : @PriscaSomd3ho
 
 #AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
