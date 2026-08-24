@@ -1,4 +1,4 @@
-📊Superstore Sales Dashboard — Projet BI (Semaines 2 & 3)
+📊 Superstore Sales Dashboard — Projet BI (Semaines 2 & 3)
 Projet réalisé dans le cadre du Data Analytics Internship Programme — AnalystLab Africa.
 Mission : transformer les ventes 2014-2017 d'un distributeur américain (dataset Superstore) en
 tableaux de bord exécutifs interactifs et en recommandations actionnables.
@@ -6,19 +6,23 @@ tableaux de bord exécutifs interactifs et en recommandations actionnables.
 Dashboard Semaine 3 
 
 Page 1: Vue d'ensemble
-<img width="668" height="383" alt="image" src="https://github.com/user-attachments/assets/e29ec099-3147-4ca5-9a3c-078f80596d2d" /> 
 
+<img width="1236" height="746" alt="Capture d&#39;écran 2026-08-23 221419" src="https://github.com/user-attachments/assets/1732fe84-56eb-476e-be0b-2a2eb59eb7cf" />
 
-Page 2:Tendances Temporelles
-<img width="676" height="416" alt="image" src="https://github.com/user-attachments/assets/e351f9d8-20e4-435e-9289-cd430f2381e0" /> 
+Page 2: Tendances Temporelles
 
+<img width="701" height="419" alt="image" src="https://github.com/user-attachments/assets/f06bdede-5bf3-4c5c-b6aa-a42ecea45ade" />
 
 Page 3: Produits et Rentabilité
-<img width="680" height="417" alt="image" src="https://github.com/user-attachments/assets/1dda8393-f1a8-4682-b02b-9908f355ef87" /> 
+
+<img width="1359" height="834" alt="Capture d&#39;écran 2026-08-23 223908" src="https://github.com/user-attachments/assets/77e9dee8-50af-4d0b-b028-451ee4ad4748" />
+
+Page 4:Clients et régions
+
+<img width="663" height="413" alt="image" src="https://github.com/user-attachments/assets/eeb51e7c-68c6-42f6-a529-34789c995caf" />
 
 
-Page 4: Clients et Régions
-<img width="662" height="418" alt="image" src="https://github.com/user-attachments/assets/892fcaa3-b557-48c5-a559-ddbaffa707a7" />
+
 
 
 🎯 Contexte & problème business
@@ -27,7 +31,7 @@ L'entreprise ne disposait d'aucune vue consolidée de sa performance. Objectifs 
 Semaine 2 : dashboard exécutif initial — performance globale, régions, catégories, segments,
 produits ; 5 KPI, 8 visuels, 4 slicers.
 Semaine 3 : approfondissement — analyse temporelle, rentabilité par produit, impact des
-remises, performance clients/régions ; dashboard 4 pages, 11 mesures DAX, modélisation
+remises, performance clients/régions ; dashboard 4 pages, 12 mesures DAX, modélisation
 avec table de dates.
 📁 Jeu de données
 Superstore Sales Dataset (Kaggle)
@@ -43,10 +47,11 @@ types corrigés (Sales/Profit décimal, Order Date date), devise USD.
 Table de dates Date créée en DAX (CALENDAR), marquée table de dates, relation
 1→plusieurs active à sens unique vers Order Date (attributs Année/Mois/Trimestre/Mois Année).
 Colonne calculée Discount Bucket (tranches de remise) pour l'analyse d'impact des remises.
-🧮 Mesures DAX (11, table dédiée _Mesures)
+🧮 Mesures DAX (12, table dédiée _Mesures)
 Total Sales · Total Profit · Total Orders · Average Sales · Profit Margin ·
 Average Sales per Order · Average Profit per Order · Average Discount ·
-Sales Previous Year (SAMEPERIODLASTYEAR) · Sales Growth YoY · Loss-Making Products.
+Sales Previous Year (SAMEPERIODLASTYEAR) · Sales Growth YoY · Loss-Making Products ·
+Etat en perte (indicateur binaire de la carte rouge/vert, page 4).
 Formules et explications détaillées : 
 Week3_DAX_Documentation.docx
 .
@@ -91,6 +96,6 @@ Ouvrir Superstore_Dashboard.pbix ;
 Naviguer entre les 4 pages et filtrer via les 5 slicers synchronisés.
 👤 Auteur
 SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
-LinkedIn : www.linkedin.com/in/oho-prisca-gaëlle-some-01391a303 · X : @PriscaSomd3ho
+LinkedIn : [lien] · X : [@pseudo]
 
 #AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
