@@ -1,11 +1,37 @@
-
-
 📊 Data Analytics Internship — AnalystLab Africa
 Portfolio de stage : Semaines 2-3 → Superstore Sales Dashboard (Power BI, 4 pages) ·
 Semaine 4+ → HealthConnect Experience Lab (track Data Analytics : rendez-vous manqués).
 
 Mission : transformer des données brutes en tableaux de bord exécutifs interactifs et en
 recommandations actionnables.
+
+📈 Semaine 6 — HealthConnect : validations & intégration
+Ce qui a été fait
+Validation des KPI Semaine 5 : rappel (effet présent dans toutes les tranches de délai,
+mais insuffisant >30 j : 59,3 % même rappelés) · Sunday validé par l'effectif (n=737 ;
+incohérence Sunday/Knowledge Base escaladée) · distance robuste (analyse de sensibilité sans
+imputation : 46,5 / 47,3 / 54,1 %) · récidive renforcée (47,5 % des absences).
+Analyses nouvelles : interaction rappel × délai · concentration des no-shows chez les
+récidivistes · type de RDV (follow-up 51,2 %) · âge / genre (effets modestes ou nuls).
+Hiérarchie des effets : délai (~33 pts) ≫ récidive (~12) > distance (~8) >
+type ≈ âge ≈ rappel ≈ jour (~4-5) > genre (~0) → leviers prioritaires : délai, récidive, rappel.
+KPI raffinés : écart rappel par tranche de délai · part des absences attribuables aux
+récidivistes (47,5 %) · règle de méthode n ≥ 100.
+Nouvelle page Power BI « Semaine 6 : Validations & Intégrations » : 5 cartes KPI,
+effet du rappel par tranche de délai, taux par type de RDV, table jour × taux × volume,
+anneau récidivistes.
+Intégration cross-track — Data Science (Alia Al-Qadri)
+Reçu : exigences de modélisation (1 ligne/RDV, patient_id conservé, appointment_outcome
+original avec Cancelled identifiable, colonnes originales, features dérivées documentées, CSV).
+Fourni : HealthConnect_features_for_DS.csv (5 000 × 20) + note d'analyse
+(classement des features, finding délai, interaction rappel × délai, incohérence Sunday/KB,
+pièges de fuite, suggestions de tests Semaine 7).
+Preuve : commit Week6/ + capture de l'échange sur le canal du pod.
+Fichiers
+Week6/HealthConnect_Week6.ipynb · Week6/HealthConnect_features_for_DS.csv
+Week6/Note_Analyse_pour_DS.md · Week6/HealthConnect_Dashboard_W6.pbix
+Dashboard Semaine 6
+Dashboard Semaine 6 — Validations & Intégrations
 
 📊 Semaine 5 — HealthConnect : KPI, visualisations & dashboard
 Ce qui a été fait
@@ -29,16 +55,9 @@ Gouvernance des données (documenter l'incohérence dimanche/KB et les manquants
 Fichiers
 Week5/HealthConnect_Week5.ipynb · Week5/HealthConnect_processed.csv
 Week5/HealthConnect_Dashboard.pbix + capture du dashboard
-Week5/Week5_Project_Summary.pdf
-Initial_HealthConnect_Analytics_Report.pdf
-
-
-Dashbord
-
+Week5/Week5_Project_Summary.pdf · Initial_HealthConnect_Analytics_Report.pdf
+Dashboard Semaine 5
 <img width="567" height="331" alt="image" src="https://github.com/user-attachments/assets/8459352c-0b9f-4b30-978a-55d35dd7abfd" />
-
-
-
 🏥 Semaine 4 — HealthConnect Clinic (kickoff)
 Contexte & problème
 HealthConnect Clinic (fictive) subit un taux élevé de rendez-vous manqués (no-shows) :
@@ -136,6 +155,11 @@ Week3_Business_Insights_Report.docx
 text
 
 ├── README.md
+├── Week6/
+│   ├── HealthConnect_Week6.ipynb          ← validations, KPI raffinés, intégration DS
+│   ├── HealthConnect_features_for_DS.csv  ← features pour le track Data Science
+│   ├── Note_Analyse_pour_DS.md            ← note d'analyse pour Alia
+│   └── HealthConnect_Dashboard_W6.pbix    ← dashboard + page Validations
 ├── Week5/
 │   ├── HealthConnect_Week5.ipynb          ← préparation, EDA, KPI, insights
 │   ├── HealthConnect_processed.csv        ← données nettoyées (original intact)
@@ -153,12 +177,13 @@ text
 └── assets/                                ← captures des dashboards
 🚀 Utilisation
 Installer Power BI Desktop ; ouvrir
-Superstore_Dashboard.pbix ou Week5/HealthConnect_Dashboard.pbix ; naviguer et filtrer.
+Superstore_Dashboard.pbix, Week5/HealthConnect_Dashboard.pbix ou
+Week6/HealthConnect_Dashboard_W6.pbix ; naviguer et filtrer.
 Notebooks : ouvrir dans Jupyter ; Kernel → Restart & Run All.
 👤 Auteure
 SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
 X : @PriscaSomd3ho ·
-LinkedIn : www.linkedin.com/in/oho-prisca-gaëlle-some-01391a303
+LinkedIn : oho-prisca-gaëlle-some
 
 #AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
 
