@@ -5,6 +5,48 @@ Semaine 4+ → HealthConnect Experience Lab (track Data Analytics : rendez-vous 
 Mission : transformer des données brutes en tableaux de bord exécutifs interactifs et en
 recommandations actionnables.
 
+🧪 Semaine 7 — HealthConnect : testing & validation
+Ce qui a été testé
+T1-T3 — Exactitude des KPI (recalcul depuis l'original) : taux global 48,46 %, rappel
+51,39/47,36 %, délai 27,81/40,21/60,49 % → PASS (écarts < 0,1 pt, arrondi).
+T4 — Filtres du dashboard (slicer Sunday) : 50,47 % global, visuels cohérents → PASS
+finding : inversion de l'effet rappel (47,96 % sans vs 51,39 % avec, alors que l'effet
+global est protecteur).
+T5 — Robustesse par type de RDV : effet rappel hétérogène (-2,6 pts Follow-up à
+-7,7 pts Diagnostic Test) → PASS + nuance : raffinement de la recommandation.
+T6 — Hiérarchie hors Sundays : délai ≫ récidive tient → PASS (conclusions
+robustes à l'anomalie KB).
+Findings & actions
+Inversion Sunday non expliquée : 3 hypothèses testées (effectifs, délai, historique) →
+aucune ne l'explique ; documentée comme non résolue + leçon « pas de causalité par
+sous-segment ».
+Note méthodologique ajoutée au dashboard (sur l'anneau récidivistes) : Cancelled
+exclus · règle n ≥ 100 · corrélations ≠ causalité · anomalie Sunday documentée.
+Recommandation raffinée : prioriser rappels sur Diagnostic Test ; pour Follow-up,
+combiner rappel + relance à mi-chemin.
+Intégration cross-track — Data Science
+Test croisé demandé à Alia : modèle avec/sans mes top-3 features + avec/sans Sundays.
+En attente des métriques ; livrables de mon côté déjà déposés et documentés.
+Fichiers
+Week7/HealthConnect_Week7.ipynb · Week7/HealthConnect_Dashboard_W7.pbix
+Week7/Week7_Project_Summary.pdf · 
+captures du dashboard (avant/après raffinement)
+
+
+
+<img width="1319" height="810" alt="Capture d&#39;écran 2026-09-20 140401" src="https://github.com/user-attachments/assets/c24d66c7-df40-4786-a629-748f62c05154" />
+
+
+
+<img width="698" height="412" alt="image" src="https://github.com/user-attachments/assets/eb247390-d336-4493-970c-7d175dfdbcd0" />
+
+
+
+
+Dashboard Semaine 7
+Note méthodologique désormais visible dans le dashboard (titre + sous-titre de l'anneau
+des récidivistes).
+
 📈 Semaine 6 — HealthConnect : validations & intégration
 Ce qui a été fait
 Validation des KPI Semaine 5 : rappel (effet présent dans toutes les tranches de délai,
@@ -31,7 +73,7 @@ Fichiers
 Week6/HealthConnect_Week6.ipynb · Week6/HealthConnect_features_for_DS.csv
 Week6/Note_Analyse_pour_DS.md · Week6/HealthConnect_Dashboard_W6.pbix
 Dashboard Semaine 6
-Dashboard Semaine 6 — Validations & Intégrations
+Capture du dashboard « Validations & Intégrations » disponible dans assets/.
 
 📊 Semaine 5 — HealthConnect : KPI, visualisations & dashboard
 Ce qui a été fait
@@ -155,6 +197,10 @@ Week3_Business_Insights_Report.docx
 text
 
 ├── README.md
+├── Week7/
+│   ├── HealthConnect_Week7.ipynb          ← tests T1-T6, registre, intégration DS
+│   ├── HealthConnect_Dashboard_W7.pbix    ← dashboard v3 + note méthodologique
+│   └── Week7_Project_Summary.pdf
 ├── Week6/
 │   ├── HealthConnect_Week6.ipynb          ← validations, KPI raffinés, intégration DS
 │   ├── HealthConnect_features_for_DS.csv  ← features pour le track Data Science
@@ -177,8 +223,9 @@ text
 └── assets/                                ← captures des dashboards
 🚀 Utilisation
 Installer Power BI Desktop ; ouvrir
-Superstore_Dashboard.pbix, Week5/HealthConnect_Dashboard.pbix ou
-Week6/HealthConnect_Dashboard_W6.pbix ; naviguer et filtrer.
+Superstore_Dashboard.pbix, Week5/HealthConnect_Dashboard.pbix,
+Week6/HealthConnect_Dashboard_W6.pbix ou
+Week7/HealthConnect_Dashboard_W7.pbix ; naviguer et filtrer.
 Notebooks : ouvrir dans Jupyter ; Kernel → Restart & Run All.
 👤 Auteure
 SOME Oho Prisca Gaelle — Data Analytics Intern @ AnalystLab Africa
@@ -186,5 +233,3 @@ X : @PriscaSomd3ho ·
 LinkedIn : oho-prisca-gaëlle-some
 
 #AnalystLabAfrica — merci à AnalystLab Africa pour l'encadrement. 🙌
-
-
