@@ -1,9 +1,29 @@
 📊 Data Analytics Internship — AnalystLab Africa
-Portfolio de stage : Semaines 2-3 → Superstore Sales Dashboard (Power BI, 4 pages) ·
-Semaine 4+ → HealthConnect Experience Lab (track Data Analytics : rendez-vous manqués).
+Portfolio complet de stage : Superstore (Semaines 2-3), puis HealthConnect Experience Lab
+(Semaines 4-8), track Data Analytics — rendez-vous manqués dans une clinique fictive.
 
 Mission : transformer des données brutes en tableaux de bord exécutifs interactifs et en
-recommandations actionnables.
+recommandations actionnables, validés par les tests.
+
+🏆 Semaine 8 — Final Integration, Presentation & Project Showcase
+Statut final
+Couche analytique HealthConnect : prête (KPI validés, dashboard 2 pages, anomalies
+documentées, recommandations affinées).
+Intégration cross-track : features livrées à la Data Science (Alia) + signal
+d'incohérence KB envoyé à la GenAI.
+Présentation vidéo : 6 slides PowerPoint enregistrées (5-10 min) — script mot pour
+mot fourni et exécuté.
+Executive summary final (
+Week8_Executive_Summary.docx
+) + walkthrough HC-POD 10 points.
+Livrables
+Week8/HealthConnect_Final_Presentation.mp4 — vidéo 5-10 min ;
+Week8/Week8_Executive_Summary.docx — résumé final 1 page ;
+Week8/HealthConnect_Dashboard_W7.pbix — dashboard final v3 (note méthodologique visible) ;
+Walkthrough HC-POD (intégré dans le notebook S7 + ce README).
+Phrase de synthèse (signature)
+« Un dashboard ne sert pas à montrer des chiffres. Il sert à produire des décisions
+validées, que toute l'équipe peut utiliser. »
 
 🧪 Semaine 7 — HealthConnect : testing & validation
 Ce qui a été testé
@@ -29,21 +49,11 @@ Test croisé demandé à Alia : modèle avec/sans mes top-3 features + avec/sans
 En attente des métriques ; livrables de mon côté déjà déposés et documentés.
 Fichiers
 Week7/HealthConnect_Week7.ipynb · Week7/HealthConnect_Dashboard_W7.pbix
-Week7/Week7_Project_Summary.pdf · 
+Week7/Week7_Project_Summary.pdf
 captures du dashboard (avant/après raffinement)
-
-
-
-<img width="1319" height="810" alt="Capture d&#39;écran 2026-09-20 140401" src="https://github.com/user-attachments/assets/c24d66c7-df40-4786-a629-748f62c05154" />
-
-
-
-<img width="698" height="412" alt="image" src="https://github.com/user-attachments/assets/eb247390-d336-4493-970c-7d175dfdbcd0" />
-
-
-
-
 Dashboard Semaine 7
+Dashboard Semaine 7 — Tests & Validations
+
 Note méthodologique désormais visible dans le dashboard (titre + sous-titre de l'anneau
 des récidivistes).
 
@@ -73,7 +83,7 @@ Fichiers
 Week6/HealthConnect_Week6.ipynb · Week6/HealthConnect_features_for_DS.csv
 Week6/Note_Analyse_pour_DS.md · Week6/HealthConnect_Dashboard_W6.pbix
 Dashboard Semaine 6
-Capture du dashboard « Validations & Intégrations » disponible dans assets/.
+Dashboard Semaine 6 — Validations & Intégrations
 
 📊 Semaine 5 — HealthConnect : KPI, visualisations & dashboard
 Ce qui a été fait
@@ -197,30 +207,33 @@ Week3_Business_Insights_Report.docx
 text
 
 ├── README.md
+├── Week8/
+│   ├── HealthConnect_Final_Presentation.mp4  ← vidéo finale 5-10 min
+│   └── Week8_Executive_Summary.docx          ← résumé final 1 page
 ├── Week7/
-│   ├── HealthConnect_Week7.ipynb          ← tests T1-T6, registre, intégration DS
-│   ├── HealthConnect_Dashboard_W7.pbix    ← dashboard v3 + note méthodologique
+│   ├── HealthConnect_Week7.ipynb             ← tests T1-T6, registre, intégration DS
+│   ├── HealthConnect_Dashboard_W7.pbix       ← dashboard v3 + note méthodologique
 │   └── Week7_Project_Summary.pdf
 ├── Week6/
-│   ├── HealthConnect_Week6.ipynb          ← validations, KPI raffinés, intégration DS
-│   ├── HealthConnect_features_for_DS.csv  ← features pour le track Data Science
-│   ├── Note_Analyse_pour_DS.md            ← note d'analyse pour Alia
-│   └── HealthConnect_Dashboard_W6.pbix    ← dashboard + page Validations
+│   ├── HealthConnect_Week6.ipynb             ← validations, KPI raffinés, intégration DS
+│   ├── HealthConnect_features_for_DS.csv     ← features pour le track Data Science
+│   ├── Note_Analyse_pour_DS.md               ← note d'analyse pour Alia
+│   └── HealthConnect_Dashboard_W6.pbix       ← dashboard + page Validations
 ├── Week5/
-│   ├── HealthConnect_Week5.ipynb          ← préparation, EDA, KPI, insights
-│   ├── HealthConnect_processed.csv        ← données nettoyées (original intact)
-│   ├── HealthConnect_Dashboard.pbix       ← dashboard Power BI interactif
+│   ├── HealthConnect_Week5.ipynb             ← préparation, EDA, KPI, insights
+│   ├── HealthConnect_processed.csv           ← données nettoyées (original intact)
+│   ├── HealthConnect_Dashboard.pbix          ← dashboard Power BI interactif
 │   └── Week5_Project_Summary.pdf
 ├── Week4/
-│   ├── HealthConnect_Week4.ipynb          ← analyse initiale (aperçu, qualité, Q, KPI)
+│   ├── HealthConnect_Week4.ipynb             ← analyse initiale (aperçu, qualité, Q, KPI)
 │   └── Week4_Project_Summary.pdf
-├── Superstore_Dashboard.pbix              ← dashboard 4 pages (Semaines 2+3)
-├── Dashboard_Export.pdf                   ← export PDF du dashboard
-├── Week2_Rapport_BI_Overview.docx         ← Semaine 2, Partie 1
-├── Week2_Executive_Summary_Insights.docx  ← Semaine 2, Parties 4-5
-├── Week3_Business_Insights_Report.docx    ← Semaine 3 : continuité, problèmes, insights, reco
-├── Week3_DAX_Documentation.docx           ← Semaine 3 : modèle + mesures DAX
-└── assets/                                ← captures des dashboards
+├── Superstore_Dashboard.pbix                 ← dashboard 4 pages (Semaines 2+3)
+├── Dashboard_Export.pdf                      ← export PDF du dashboard
+├── Week2_Rapport_BI_Overview.docx            ← Semaine 2, Partie 1
+├── Week2_Executive_Summary_Insights.docx     ← Semaine 2, Parties 4-5
+├── Week3_Business_Insights_Report.docx       ← Semaine 3 : continuité, problèmes, insights, reco
+├── Week3_DAX_Documentation.docx              ← Semaine 3 : modèle + mesures DAX
+└── assets/                                   ← captures des dashboards
 🚀 Utilisation
 Installer Power BI Desktop ; ouvrir
 Superstore_Dashboard.pbix, Week5/HealthConnect_Dashboard.pbix,
