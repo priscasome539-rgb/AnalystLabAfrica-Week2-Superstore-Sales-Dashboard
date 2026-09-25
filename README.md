@@ -109,7 +109,11 @@ Week5/HealthConnect_Week5.ipynb · Week5/HealthConnect_processed.csv
 Week5/HealthConnect_Dashboard.pbix + capture du dashboard
 Week5/Week5_Project_Summary.pdf · Initial_HealthConnect_Analytics_Report.pdf
 Dashboard Semaine 5
+
 <img width="567" height="331" alt="image" src="https://github.com/user-attachments/assets/8459352c-0b9f-4b30-978a-55d35dd7abfd" />
+
+
+
 🏥 Semaine 4 — HealthConnect Clinic (kickoff)
 Contexte & problème
 HealthConnect Clinic (fictive) subit un taux élevé de rendez-vous manqués (no-shows) :
@@ -148,14 +152,29 @@ Projet réalisé dans le cadre du Data Analytics Internship Programme — Analys
 Mission : transformer les ventes 2014-2017 d'un distributeur américain (dataset Superstore) en
 tableaux de bord exécutifs interactifs et en recommandations actionnables.
 
+
 Page 1 : Vue d'ensemble
+
+
 <img width="1236" height="746" alt="Capture d&#39;écran 2026-08-23 221419" src="https://github.com/user-attachments/assets/1732fe84-56eb-476e-be0b-2a2eb59eb7cf" />
+
+
 Page 2 : Tendances Temporelles
+
+
 <img width="701" height="419" alt="image" src="https://github.com/user-attachments/assets/f06bdede-5bf3-4c5c-b6aa-a42ecea45ade" />
+
+
 Page 3 : Produits et Rentabilité
+
 <img width="1359" height="834" alt="Capture d&#39;écran 2026-08-23 223908" src="https://github.com/user-attachments/assets/77e9dee8-50af-4d0b-b028-451ee4ad4748" />
+
+
 Page 4 : Clients et régions
+
 <img width="663" height="413" alt="image" src="https://github.com/user-attachments/assets/eeb51e7c-68c6-42f6-a529-34789c995caf" />
+
+
 🎯 Contexte & problème business
 L'entreprise ne disposait d'aucune vue consolidée de sa performance. Objectifs :
 
